@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: "Changa", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+  height: 100vh;
+}
+
+#main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  align-content: end;
+  width: 340px;
+  height: 450px;
+  margin: 0 auto;
+  gap: 2px;
+  padding: 10px 0;
+}
+
+#main-div .btn {
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+#main-div .btn:hover {
+  opacity: 0.9;
+}
+.btn:last-child {
+  background-color: yellow;
+}
